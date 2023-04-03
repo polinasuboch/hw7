@@ -1,0 +1,93 @@
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: #8dbc8e;
+    text-align: center ;
+    padding:5px;
+    position: relative;
+   
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+.mwrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0 ,0, 0, 0.1);
+
+
+}
+
+a:hover {
+    color: black;
+}
+
+.modal {
+    display: block;
+    background: rgb(202, 202, 202);
+    position: fixed;
+    width: 160px;
+    height: 175px;
+    top: 61px;
+    right: 79px;
+    text-align: center;
+    border-spacing: 2px;
+}
+
+.button {
+    position: absolute;
+    right: 30px;
+    bottom: 7px;
+
+}
+
+
+.main {
+    text-align:auto;
+    width: 400px;
+    height: 160px;
+    padding: 5px;
+    position: sticky;
+    
+    
+}
+
+.home {
+    background:#feff03;
+    left: 2vw;
+    margin-top: 15px;
+
+    
+
+}
+
+.about {
+    background:#97cd2f;
+    left: 50vw;
+
+    
+}
+
+.works {
+    background:#8f70da ;
+    left: 25vw;
+}
+
+.contacts {
+    background:#fb8071;
+    left: 70vw;
+    position: sticky;
+    
+}
+
+
+
